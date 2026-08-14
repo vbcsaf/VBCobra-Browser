@@ -1,40 +1,53 @@
-# VBCobra Sovereign Browser & Social Portal: Master Specification
+# CALL FOR LEAD ARCHITECTS: The VBCobra Sideload Rebellion
+
+**Status:** Seeking Post-Economic Core Contributors (C++ / Rust / React)  
+**Compensation:** Founder-Level Equity via the VBC Senior Preferred Waterfall  
+**Location:** Decentralized / Sovereign  
 
 ---
 
-## 1. Executive Concept & System Summary
+## The Reality
+If you are reading this, you already know the internet is broken. You likely helped build the Web2 infrastructure at a FAANG company, cashed out your stock options, and are now watching the industry cannibalize its own users through surveillance, ad-fraud, and algorithmic extraction. 
 
-**VBCobra** is a sovereign desktop and mobile portal engineered on a stripped, optimized Chromium core. It replaces the surveillance-ad model with direct compensation, integrates native encrypted social communications, ensures sovereign data retention, and operates independently of centralized networks through local mesh routing. (VBCobra.com, ourVBC.com)
+We are not trying to "fix" the legacy ad-tech model. We are rendering it obsolete. 
 
-### Core Pillars
-1. **The Opt-In Attention Economy:** Zero unsolicited ad tracking; users select vetted advertisers directly and receive 100% transparent value distributions.
-2. **Sovereign Social & Encrypted Comms (The Nexus):** A zero-server social photo stream, end-to-end encrypted messaging, and email interface integrated directly into the browser shell.
-3. **P2P Mesh & Grid-Down Resilience:** Phone-to-phone local networking via Bluetooth LE and Wi-Fi Direct for continuous operation during network outages.
-4. **The Points-Based Economic Engine:** Direct payouts in **VBCredits**, data-equity bonuses for voluntary sharing, universal partner portability, and an affiliate revenue-sharing model.
-5. **The Integrity & Governance Engine:** Client-side heuristic filtering for critical harm categories and configurable multi-user Parental/Kids/Teens modes.
-6. **The Vault (Data Retention & Storage):** Localized, encrypted storage preserving full user history and bookmarks without arbitrary cloud purging.
+We are building **VBCobra**—a sovereign, privacy-first desktop and mobile portal built on a stripped Chromium core. It features a zero-cloud peer-to-peer social layer, an offline mesh network protocol, and a direct attention-economy wallet that cuts out the ad-tech middlemen entirely.
+
+We are actively bypassing the Google Play Store and the Apple App Store. We do not ask for permission from gatekeepers. We are building a door around their wall via direct sideloading and deterministic builds.
 
 ---
 
-## 2. System Architecture & Component Mapping
+## Who We Are Looking For
+We are looking for "post-economic" engineers, systems architects, and applied cryptographers who want to spend the next phase of their lives building Social Infrastructure that actually protects human sovereignty. 
 
-* **The Application Layer:** 
-  * *Cobra Fabric:* Encrypted photo feed, P2P content hashing.
-  * *The Nexus:* E2EE Chat (Signal/Matrix), Integrated sovereign mail.
-  * *VBC Wallet:* VBCredit ledger, loyalty stacking.
-  * *The Vault:* Local full-history database, deterministic overwrite.
-  * *Integrity Engine:* Local heuristic scanner, Parental/Kids/Teens modes.
-  * *Opt-In Ad Chamber:* Screened registry, data-equity bonuses.
-* **The Attribution & Affiliate Hooks Layer:** 
-  * Zero-cookie partner API integration, direct merchant revenue-share router.
-* **The Chromium Core (Patched):** 
-  * Blink rendering engine, V8 JavaScript engine, telemetry & tracker stripping layer, sandboxed client process isolation.
-* **The Decentralized Transport & Storage Layer:** 
-  * Local SQLite (AES-256-GCM), Libp2p / WebRTC DataChannels, local BLE / Wi-Fi Direct mesh transport, CRDT gossip log sync.
+If you are looking for a quick VC-funded cash grab, leave now. 
+
+We need 10x developers who specialize in:
+* **Chromium Core (C++):** Maintaining a hard fork, stripping out Google telemetry, SafeBrowsing leaks, and hardcoded trackers at the network-stack level.
+* **P2P & Mesh Networking (Rust/Go):** Implementing Libp2p/WebRTC, CRDTs (Conflict-free Replicated Data Types) for zero-server social feeds, and BLE/Wi-Fi Direct offline store-and-forward routing.
+* **Cryptography:** End-to-end encrypted local vaults (SQLite + AES-256-GCM), key management, and identity routing without centralized servers.
 
 ---
 
-## 3. Deep-Dive Functional Modules (The Constitutional Framework)
+## The VBC Economic Promise (Why This Is Different)
+We operate on the **Virtues-Based Capitalism (VBC)** framework. This is not a utopian pipe dream; it is a rigidly structured economic engine governed by mathematical transparency and ethical constraints.
+
+1. **The Genesis IP Reserve:** This project is anchored by a massive, living archive of intellectual and cultural capital, including the *Master Peace* symphonic composition and a 20-year creative archive. It is an asset-backed reality from Day One.
+2. **The 40x Salary Cap:** Every participant—including the Founders—is universally bound by a 40x salary cap. There are no billionaire founders here. Excess profits overflow directly into the VBC Generosity Budget to fund physical neighborhood infrastructure.
+3. **Institutional Parity Equity:** As a core builder, your equity sits on the exact same Senior Priority Preferred Capital Waterfall as our corporate infrastructure partners. You eat first.
+4. **Artful Intelligence Collaboration:** We do not view AI as a replacement for human soul. We build with *artful intelligence*—using machines as collaborative partners to enhance human flourishing, not automate it into extinction.
+
+---
+
+## The Ask
+The Master Specification and Architectural Blueprint are complete and published in this repository. The business model is modeled, the 6-month breakeven is mapped, and the initial $1.56M CapEx/Marketing allocation is structured.
+
+We have the blueprints. We need the master builders.
+
+If you have the technical mastery to forge this Chromium fork and the mesh network that powers it, and you want to own a foundational stake in the infrastructure that survives the AI Cliff, it is time to build.
+
+### How to Step In:
+Open an Issue in this repository titled `[ARCHITECT] - Your Core Specialty` (e.g., `[ARCHITECT] - Chromium Telemetry Stripping`). Tell us what you built in the past, why you walked away from the legacy grid, and how you want to help us lay the first bricks of the VBCobra engine.
 
 ### I. The Points-Based Economic Engine & Affiliate Architecture
 * **Direct Attention Payouts:** Screened advertisers deposit VBCredits directly into the user’s local `cobra://wallet`. No ad impressions occur without explicit user consent.
